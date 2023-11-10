@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Verificación</title>
+    <link rel="stylesheet" type="text/css" href="./public/css/index_style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="tu-imagen.png" alt="Imagen">
+        <input type="password" placeholder="Ingresa tu contraseña" id="password">
+        <button onclick="validarContraseña()">Validar</button>
+    </div>
+    <script>
+        function validarContraseña() {
+            // Aquí puedes agregar la lógica para validar la contraseña
+            alert("Contraseña ingresada: " + document.getElementById('password').value);
+        }
+    </script>
+</body>
+</html>

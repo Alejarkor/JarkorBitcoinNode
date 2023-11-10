@@ -1,0 +1,28 @@
+bitcoin-node-struct/
+│
+├── app/
+│   ├── controllers/       # Lógica de control (manejo de solicitudes, interacción con el modelo)
+│   ├── models/            # Modelos (representación de datos y lógica de negocio)
+│   ├── views/             # Vistas (archivos HTML, templates)
+│   └── routes/            # Definición de rutas (mapeo URL a controladores)
+│
+├── config/
+│   ├── index.js           # Configuraciones centrales (por ejemplo, conexión a la base de datos)
+│   └── ...
+│
+├── public/
+│   ├── css/               # Hojas de estilo CSS
+│   ├── js/                # JavaScript del lado del cliente
+│   └── images/            # Imágenes y recursos gráficos
+│
+├── lib/                   # Bibliotecas y dependencias adicionales
+│
+├── test/                  # Pruebas automatizadas (unitarias, integración)
+│
+├── scripts/               # Scripts útiles (despliegues, herramientas de desarrollo)
+│
+├── node_modules/          # Dependencias de Node.js (no se incluye en el control de versiones)
+│
+├── package.json           # Metadatos del proyecto y dependencias de Node.js
+├── .env                   # Variables de entorno (no se incluye en el control de versiones)
+└── server.js              # Punto de entrada del servidor (configuración del servidor, middleware)
